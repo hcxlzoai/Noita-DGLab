@@ -1,0 +1,4 @@
+hjson==3.1.0
+pydglab_ws==1.1.0
+qrcode==8.2
+websockets==12.0

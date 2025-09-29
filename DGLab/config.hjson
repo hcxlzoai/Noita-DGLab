@@ -1,0 +1,19 @@
+{
+    // 本机ip地址
+    ip: 192.168.1.5
+    // ip: 10.0.0.2
+    // 由于太低了没感觉, 所以需要设定一个起步强度百分比
+    // 例如0.82表示82%, 也就是受到伤害时通道强度从上限的82%开始增加
+    percent_minimum: 0.84
+    // 同理, 输出时长的最小值和最大值(秒)
+    time_minimum: 0.5
+    time_maximum: 3.0
+    // 受到的伤害达到多少时, 输出强度百分比和输出时长达到最大值
+    damage_maximum: 30
+    // 受到的伤害 < damage_maximum时: 
+    //      输出的强度百分比 = percent_minimum + (1 - percent_minimum) * (受到的伤害 / damage_maximum)
+    //      输出时长 = time_minimum + (time_maximum - time_minimum) * (受到的伤害 / damage_maximum)
+    // 受到的伤害 >= damage_maximum时:
+    //      输出的强度百分比 = 1.0
+    //      输出时长 = time_maximum
+}
