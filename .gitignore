@@ -3,6 +3,6 @@ workshop_preview_image.png
 mod_id.txt
 workshop_id.txt
 compatibility.xml
-*.dll
 build/
+dist/
 *.spec
