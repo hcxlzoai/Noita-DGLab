@@ -38,11 +38,11 @@
 - 首先安装cheatgui模组. 下载或克隆整个项目, 移动cheatgui文件夹到Noita安装目录下mods文件夹中, 如`C:\Program Files (x86)\Steam\steamapps\common\Noita\mods`
 - 打开Noita模组列表页面勾选`Cheatgui DG-Lab version`以及右边不安全模组选项, 然后进入一局游戏.
 - DGLab文件夹可以放到任意地方, 文件夹下还有一个config.hjson可以调一些设置, 重启生效, 注意**将ip设置为本机内网IP地址**, 可以打开终端输入ipconifg查看对应网卡的ip
-- 按照requirement.txt安装依赖运行python脚本**或者**直接运行打包好的exe文件都可以
+- 直接运行打包好的exe文件**或者**按照requirement.txt安装依赖运行python脚本都可以
 - ~~找我上门安装狼~~
-- 手机扫码连接, APP设置强度上限.
+- 手机扫码连接, APP设置强度上限. **注意手机和电脑要连接同一个WiFi, 或者说在同一个局域网内!**
 
 还可以启动Noita Proxy联机, 点开共享血量, 然后在语音里质问别人在搞什么😡
 
 
-真的有人会玩这个吗, 我有点不信
+~~究竟是谁在这么玩Noita~~
